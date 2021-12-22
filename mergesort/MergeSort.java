@@ -21,7 +21,8 @@ public class MergeSort {
 
 		int[] leftArray = new int[mid];
 		int[] rightArray = new int[array.length - mid];
-
+		
+		// split arrays for each half
 		for (int i = 0; i < leftArray.length; i++) {
 			leftArray[i] = array[i];
 		}
@@ -30,7 +31,7 @@ public class MergeSort {
 			rightArray[j] = array[mid + j];
 		}
 
-		// use recursion (call itself)
+		// use recursion for each split
 		mergeSort(leftArray);
 		mergeSort(rightArray);
 		merge(array, leftArray, rightArray);
