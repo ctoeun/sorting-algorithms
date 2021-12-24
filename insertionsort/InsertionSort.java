@@ -26,6 +26,9 @@ public class InsertionSort {
 					temp = array[j];
 					array[j] = array[j + 1];
 					array[j + 1] = temp;
+				} else {
+					// elements in front are already sorted
+					break;
 				}
 			}
 		}
