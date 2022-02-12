@@ -1,10 +1,14 @@
-# sorting-algorithms
-Implementations of various sorting algorithms --
+# Sorting Algorithms
+<h3>Implementations of various sorting algorithms</h3>
 
-Merge Sort --
+<ul>
+  <li> QuickSort -- Average time complexity: O(NLogN), Space complexity: O(1) </li>
 
-Bubble Sort --
+  <li> Merge Sort -- Average time complexity: O(NLogN), Space complexity: O(N) </li>
 
-Selection Sort --
+  <li> Selection Sort -- Average time complexity: O(N^2), Space complexity: O(1) </li>
 
-Insertion Sort --
+  <li> Insertion Sort -- Average time complexity: O(N^2), Space complexity: O(1) </li>
+
+  <li> Bubble Sort -- Average time complexity: O(N^2), Space complexity: O(1) </li>
+ </ul>
